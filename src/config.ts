@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://www.timeaton.dev/", // replace this with your deployed domain
   author: "Tim Eaton",
   profile: "https://timeaton.dev/",
-  desc: "A minimal, Astro theme based on Astro Peper.",
+  desc: "A minimal, Astro theme based on Astro Paper.",
   title: "Tim Eaton",
   ogImage: "timeaton-og.jpg",
   lightAndDarkMode: true,

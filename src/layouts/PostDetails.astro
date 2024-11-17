@@ -86,7 +86,7 @@ const nextPost =
       editPost={editPost}
       postId={post.id}
     />
-    <article id="article" class="prose mx-auto mt-8 max-w-3xl">
+    <article id="article" class="prose">
       <Content />
     </article>
 
@@ -183,10 +183,17 @@ const nextPost =
 
 <style>
   main {
-    @apply mx-auto w-full max-w-3xl px-4 pb-12;
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    padding-bottom: 3rem; 
+    width: 100%; 
+    max-width: 48rem; 
   }
   .post-title {
-    @apply text-2xl font-semibold text-skin-accent;
+    font-size: 1.5rem;
+    line-height: 2rem; 
+    font-weight: 600;
+    /* TODO: Color accent; */
   }
 </style>
 
